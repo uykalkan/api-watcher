@@ -14,7 +14,7 @@ class ApiWatcherController extends Controller
             'Parameters:' => $request->all(),
         ];
 
-        \Log::driver('api')->debug($response);
+        \Log::debug($response);
 
         return $response;
     }
