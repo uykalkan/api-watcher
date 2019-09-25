@@ -12,3 +12,6 @@
 */
 
 Route::get('','ApiWatcherController@index');
+Route::post('','ApiWatcherController@index');
+Route::delete('','ApiWatcherController@index');
+Route::put('','ApiWatcherController@index');
